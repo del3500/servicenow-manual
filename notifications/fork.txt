@@ -1,0 +1,15 @@
+FORK REPOSITORY AND IMPORTING
+- Create a personal access token on Github in the developer's settings.
+- Fork the repository needed to be forked.
+- Go to the main page of ServiceNow.
+- Create a credential record for Github connection
+     - In the All menu, open "Connections & Credentials" > "Credentials"
+     - User name: github username
+     - Password: personal access token
+
+From here, you can now start using it at
+    - Systems Application > Studio
+    - Import from source control
+        - URL: URL of the forked version of the repository
+        - Credentials: the credential for this repository
+        - Branch: Main/etc.
